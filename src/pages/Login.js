@@ -1,8 +1,15 @@
+import Footer from "../components/Footer";
+
 const Login = () => {
     return (
-        <div>
-            <h1>Login</h1>
-        </div>
+        <>
+            <div className="header">
+                <div>Logo</div>
+                <div>Options</div>
+            </div>
+            <div>Formulaire</div>
+            <Footer/>
+        </>
     )
 }
 

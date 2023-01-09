@@ -1,8 +1,15 @@
+import Footer from "../components/Footer";
+
 const Profile = () => {
     return (
-        <div>
-            <h1>Profile</h1>
-        </div>
+        <>
+            <div className="header">
+                <div>Logo</div>
+                <div>Options</div>
+            </div>
+            <div>Profile infos</div>
+            <Footer />
+        </>
     )
 }
 

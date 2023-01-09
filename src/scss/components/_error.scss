@@ -1,0 +1,20 @@
+.error404 {
+  height: 100vh;
+  position: relative;
+
+  .error-content {
+    margin: 10% 0;
+    // transform: translateY(-50%);
+
+    .error-message {
+      font-size: 6rem;
+      font-weight: bold;
+      text-align: center;
+      margin: 5% 0;
+    }
+    .error-link {
+      text-decoration: underline;
+      margin-top: 163px;
+    }
+  }
+}

@@ -1,0 +1,46 @@
+.header-logo-image {
+  @media (max-width: 500px) {
+    width: 150px;
+  }
+  width: 200px;
+}
+
+.header {
+  @media (max-width: 500px) {
+    padding: 5px;
+  }
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px;
+}
+
+.header-nav-user-or-home {
+  display: flex;
+  align-items: center;
+}
+
+.header-item {
+  display: block;
+  display: flex;
+  align-items: center;
+  color: #2c3e50;
+  text-decoration: none;
+}
+
+.header-item-icon {
+  color: #2c3e50;
+}
+
+.header-item-signin-or-out {
+  @media (max-width: 500px) {
+    font-size: 0.9rem;
+  }
+  font-weight: bold;
+  color: #2c3e50;
+  margin: 0 0.5rem;
+  text-decoration: none;
+}
+.hover-underline:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

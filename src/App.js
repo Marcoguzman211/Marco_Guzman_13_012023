@@ -1,16 +1,19 @@
-/*import { BrowserRouter as Router, Routes, Route} from "react-router-dom";*/
 import {
     createBrowserRouter,
     RouterProvider,
 } from "react-router-dom"
-import Home from "./pages/Home";
-import Login from "./pages/Login";
-import Profile from "./pages/Profile";
-import Error from "./pages/Error";
-import {home, login, profile} from "./routes";
+import Home from "./pages/Home"; // Composant Home pour la route "/"
+import Login from "./pages/Login"; // Composant Login pour la route "/login"
+import Profile from "./pages/Profile"; // Composant Profile pour la route "/profile"
+import Error from "./pages/Error"; // Composant Error pour toutes les routes non trouvées
+import {home, login, profile} from "./routes"; // Variables exportées depuis le fichier routes.js contenant les différents paths
 
-
-const router = createBrowserRouter([
+/**
+ * Router qui lit les routes venues de routes.js et les assigne un composant.
+ * @type {Router}
+ * @return {Router} an array of objects that contains the route and the component (path, element).
+ */
+const Router = createBrowserRouter([
     {
         path: home,
         element: <Home />,
@@ -32,7 +35,8 @@ const router = createBrowserRouter([
 function App() {
   return (
    <>
-    <RouterProvider router={router} />
+       {/* Routeur de react-router-dom qui va s'occuper d'afficher les Pages */}
+    <RouterProvider router={Router} />
    </>
   );
 }
