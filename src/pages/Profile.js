@@ -1,10 +1,12 @@
 import Footer from "../components/Footer";
+import HeaderLogo from "../components/HeaderLogo";
+import React from "react";
 
 const Profile = () => {
     return (
         <>
             <div className="header">
-                <div>Logo</div>
+                <HeaderLogo />
                 <div>Options</div>
             </div>
             <div>Profile infos</div>
