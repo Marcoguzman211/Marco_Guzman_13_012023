@@ -13,7 +13,7 @@ const Error = () => {
             <div className="error-content">
                 <h2 className="error-message">Page non trouvée...</h2>
                 <NavLink to="/">
-                    <h4 className="error-link">Page d'accueil</h4>
+                    <h4 className="error-link">Page d&aposaccueil</h4>
                 </NavLink>
             </div>
             <Footer />

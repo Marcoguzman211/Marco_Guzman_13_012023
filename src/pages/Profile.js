@@ -12,7 +12,7 @@ const Profile = () => {
             <div>Profile infos</div>
             <Footer />
         </>
-    )
-}
+    );
+};
 
 export default Profile;

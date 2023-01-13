@@ -1,5 +1,5 @@
 import React from "react";
-import bankTreeBackground from "../assets/bank-tree.jpeg"
+import bankTreeBackground from "../assets/bank-tree.jpeg";
 
 const Hero = () => {
     return (

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import Logo from "./Logo.jsx";
 import { NavLink} from "react-router-dom";
 
@@ -10,7 +10,7 @@ const HeaderLogo = () => {
                 <h1 className='sr-only'>Argent Bank</h1>
             </NavLink>
         </div>
-    )
-}
+    );
+};
 
 export default HeaderLogo;

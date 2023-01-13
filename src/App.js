@@ -1,7 +1,8 @@
+import React from "react";
 import {
     createBrowserRouter,
     RouterProvider,
-} from "react-router-dom"
+} from "react-router-dom";
 import Home from "./pages/Home"; // Composant Home pour la route "/"
 import Login from "./pages/Login"; // Composant Login pour la route "/login"
 import Profile from "./pages/Profile"; // Composant Profile pour la route "/profile"
@@ -36,7 +37,7 @@ function App() {
   return (
    <>
        {/* Routeur de react-router-dom qui va s'occuper d'afficher les Pages */}
-    <RouterProvider router={Router} />
+       <RouterProvider router={Router} />
    </>
   );
 }
