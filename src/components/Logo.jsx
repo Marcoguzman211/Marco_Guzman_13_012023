@@ -9,7 +9,6 @@ const Logo = () => {
                className="header-logo-image"
           />
       </div>
-
   );
 };
 

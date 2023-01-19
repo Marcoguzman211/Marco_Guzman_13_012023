@@ -1,18 +1,20 @@
 import Footer from "../components/Footer";
 import HeaderLogo from "../components/HeaderLogo";
 import React from "react";
+import SingInToggle from "../components/SignInToggle";
+import AuthentificationForm from "../components/AuthentificationForm";
 
 const Login = () => {
     return (
         <>
             <div className="header">
                 <HeaderLogo />
-                <div>Options</div>
+                <SingInToggle />
             </div>
-            <div>Formulaire</div>
+            <AuthentificationForm />
             <Footer/>
         </>
-    )
-}
+    );
+};
 
 export default Login;

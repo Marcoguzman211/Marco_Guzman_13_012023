@@ -5,7 +5,6 @@ import HeaderNavSignOut from "./HeaderNavSignOut";
 
 const SingInToggle = () => {
 	const user = useSelector((state) => state.auth.user);
-
 	return (
 		<>
 			{user ? (
