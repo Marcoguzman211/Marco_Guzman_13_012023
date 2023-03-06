@@ -16,7 +16,7 @@ const HeaderNavSignOut = () => {
 
 	return (
 		<div className="header-nav-user-or-home">
-			<div className="header-item" to="/profile.html">
+			<div className="header-item">
 				<i className="header-item-icon fa fa-user-circle"></i>
 				<NavLink
 					to="/profile"
