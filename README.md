@@ -21,7 +21,9 @@ Le design de la page d'accueil, de la page de connexion et de la page de profil 
 
 ### API
 
-Les détails des fonctionnalités à implémenter sont décrits dans les modèles de GitHub Issues disponibles dans le dossier ".github/ISSUE_TEMPLATE" du projet.
+Les détails des fonctionnalités à implémenter sont décrits dans les modèles de GitHub Issues disponibles dans les github issues du projet.
+
+Voici le lien : https://github.com/OpenClassrooms-Student-Center/Project-10-Bank-API/tree/master/.github/ISSUE_TEMPLATE
 
 ## Phase 2: Transactions
 
@@ -47,11 +49,15 @@ Pour chaque endpoint de l'API, il faut spécifier les éléments suivants :
 
 Pour exécuter l'application en local, suivez ces étapes :
 
-1. Clonez le dépôt Git.
+### Pour le frontend
+1. Clonez ce dépôt Git https://github.com/Marcoguzman211/Marco_Guzman_13_012023.
 2. Installez les dépendances avec la commande `npm install`.
 3. Exécutez l'application avec la commande `npm start`.
 
 L'application sera accessible à l'adresse `http://localhost:3000`.
+
+### Pour le backend
+- Suivez les instructions du dépôt Git de l'API.
 
 ## Conclusion
 
