@@ -10,6 +10,7 @@ const AuthForm = () => {
 
 	// Selecting what we need from the state in the store
 	const { user, isSuccess } = useSelector((state) => state.auth);
+	const [errorMessage, setErrorMessage] = useState("");
 
 	// Form inputs default values
 	const [formData, setFormData] = useState({
@@ -47,6 +48,7 @@ const AuthForm = () => {
 			})
 			.catch((error) => {
 				console.log(error.message);
+				setErrorMessage("Invalid username or password️");
 			});
 	};
 
@@ -87,6 +89,9 @@ const AuthForm = () => {
 					>
 						Sign In
 					</button>
+					{errorMessage && (
+						<p style={{ color: "#F03A47", fontWeight: "bold" }}>{errorMessage}</p>
+					)}
 				</form>
 			</section>
 		</main>
